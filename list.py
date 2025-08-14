@@ -1,22 +1,25 @@
-list_integer = []
+my_list = []
 
-num1 = int(input("Enter first index : "))
-list_integer.append(num1)
+my_list.append(10)
 
-num2 = int(input("Enter second index : "))
-list_integer.append(num2)
+my_list.append(20)
 
-num3 = int(input("Enter third index : "))
-list_integer.append(num3)
+my_list.append(30)
 
-num4 = int(input("Enter fourth index : "))
-list_integer.append(num4)
+my_list.append(40)
 
-num5 = int(input("Enter fifth index : "))
-list_integer.append(num5)
+my_list.insert(1, 15)
 
-print(list_integer)
+second_list = [50, 60, 70]
 
-sum_of_integer = int(list_integer[0] + list_integer[1] + list_integer[2] + list_integer[3] + list_integer[4])
+my_list.extend(second_list)
 
-print("The Sum Array Index(es) is = ", sum_of_integer)
+my_list.pop()
+
+my_list.sort()
+
+print(my_list)
+
+index = my_list.index(30)
+
+print(index)
