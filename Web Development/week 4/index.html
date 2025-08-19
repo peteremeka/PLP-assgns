@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="My First Website.">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>My Website</title>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to my First Website Design</h1>
+            <div id="nav_div">
+                <nav>
+                    <a href="login.html">Login</a> 
+                    <a href="about.html">About Us</a> 
+                    <a href="contact.html">Contact Us</a> 
+                    <a href="logout.html">Sign Out</a>
+                </nav>
+            </div>
+        </header>
+
+        <section>
+            <div class="top_body">
+                <h2>My Website Design</h2>
+                <p>
+                    Hi, my name is Ekwelike Emeka Peter.
+                    I am happy to welcome you to the first website I created with the knowledge I got 
+                    through PLP web development program.
+                </p>
+            </div>
+
+            <div class="middle_body">
+                <div id="image">
+                    <img src="images/plp.jpeg" alt="A sample image">
+                </div>
+                <div class="side_bar">
+                    <form>
+                        <fieldset>
+                            <legend>Create Account</legend>
+                            <div class="inputBox">
+                                <label for="firstname">First Name:</label><br>
+                                <input type="text" id="firstname" name="firstname" placeholder="Enter your Firstname" required>
+                            </div>
+                            <div class="inputBox">
+                                <label for="lastname">Last Name:</label><br>
+                                <input type="text" id="lastname" name="lastname" placeholder="Enter your Lastname" required>
+                            </div>
+                            <div class="inputBox">
+                                <label for="gender">Gender:</label>
+                                <select id="gender" name="gender">
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                            </div>
+                            <div class="inputBox">
+                                <label for="email">Email:</label><br>
+                                <input type="email" id="useremail" name="useremail" placeholder="Enter your Email" required>
+                            </div>
+                            <div class="inputBox">
+                                <label for="password">Password:</label><br>
+                                <input type="password" id="password" name="password" minlength="8" maxlength="20" placeholder="Enter your Password" required>
+                            </div>
+
+                            <div id="submit_button">
+                                <input type="submit" id="submit_btn" name="submit_btn">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            
+            <div id="inner_middle_body">
+                <p>List of modules in Power Learn Program Africa</p>
+                <ul>
+                    <li>Python Module</li>
+                    <li>Database Medule</li>
+                    <li>Start Up for Entrepreneur Module</li>
+                    <li>Web development Medule</li>
+                </ul>
+                    
+                <table>
+                    <caption>Product Table</caption>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Category</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Laptop</td>
+                            <td>Electronics</td>
+                            <td>$800</td>
+                        </tr>
+                        <tr>
+                            <td>Book Shelf</td>
+                            <td>Furniture</td>
+                            <td>$150</td>
+                        </tr>
+                        <tr>
+                            <td>Coffee Maker</td>
+                            <td>Appliances</td>
+                            <td>$50</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <br> 
+        <footer>
+            <p>© 2025 Ekwelike Emeka Peter Website</p>
+        </footer>
+    </body>
+</html>
